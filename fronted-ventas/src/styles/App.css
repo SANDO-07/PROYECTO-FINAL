@@ -9,9 +9,10 @@ body {
 /* Contenedor para el contenido con imagen de fondo */
 .content {
     background-image: url(''); /* Cambia esta ruta por la ruta de tu imagen */
-    background-size: cover; /* Asegura que la imagen cubra el contenedor */
-    background-position: center bottom; /* Mueve la imagen hacia la parte inferior */
-    height: calc(100vh - 60px); /* Ajusta la altura restando la altura del menú */
+    background-size: contain; /* Asegura que la imagen se ajuste dentro del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    height: 10vh; /* Establece la altura del contenedor al 10% de la altura de la pantalla */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
     padding-top: 60px; /* Espacio para el menú */
 }
 

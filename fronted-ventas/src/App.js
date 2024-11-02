@@ -6,6 +6,8 @@ import CartPage from './pages/CartPage';
 import OrderHistory from './pages/OrderHistory';
 import AdminPage from './pages/AdminPage';
 
+import buoImage from './assets/imagenes/buo.jpg'; 
+
 function App() {
   return (
     <Router>
